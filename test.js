@@ -65,7 +65,7 @@ describe('findLongestWord()', function(){
 	it('should return the longest word in a string of words', function(){
 		checkFuncBasics('findLongestWord',1)
 		assert.equal("book", findLongestWord("a book full of dogs"))
-		assert.equal("Texas", findLongestWord("don't mess with Texas"))
+		assert.equal("Texas", findLongestWord("dont mess with Texas"))
 	})
 })
 describe('GCD()', function(){
